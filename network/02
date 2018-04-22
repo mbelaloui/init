@@ -1,1 +1,0 @@
-ifconfig | grep en0 -A 3 | grep "inet " | awk '{print $2}'
