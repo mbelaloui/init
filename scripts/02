@@ -1,0 +1,5 @@
+#!/bin/bash
+
+crontab -l > script_ex02
+echo "0 4 * * 1 (apt_get update && apt_get upgrade) >> /var/log/update_script.log" >> script_ex02
+crontab script_ex02
