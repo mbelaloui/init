@@ -1,1 +1,3 @@
 les cles RSA autorise a se connecter via SSH cetrouvent dans >/home/user/.ssh<.
+ou ~/ssh/.authorization si le les fichier n'existe pas un comportement par defaut 
+ce fera <soit le system authorise tout le monde soit il n'authorise personne>
